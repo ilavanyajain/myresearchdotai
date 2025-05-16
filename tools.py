@@ -37,5 +37,5 @@ search_tool = Tool(
 )
 
 
-api_wrapper = WikipediaAPIWrapper(top_k_results=3, doc_content_chars_max=100)
+api_wrapper = WikipediaAPIWrapper(top_k_results=7, doc_content_chars_max=1000)
 wiki_tool = WikipediaQueryRun(api_wrapper=api_wrapper)

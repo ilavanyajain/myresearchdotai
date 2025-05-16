@@ -6,6 +6,6 @@ langchain-openai
 pydantic
 python-dotenv
 duckduckgo-search
-serpai
+google-search-results
 fastapi
 uvicorn
